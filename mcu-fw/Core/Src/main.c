@@ -162,7 +162,9 @@ int main(void)
 {
 
   /* USER CODE BEGIN 1 */
-	int period = 1000000/60/DAC_LEN;
+	float nth = 3;
+	int period = 1000000/60/nth/DAC_LEN;
+
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -209,9 +211,9 @@ int main(void)
 	adc5_val_r = &adc_val[R_SW][OFF_ADC5];
 
   for (int i = 0; i < DAC_LEN; i++) {
-      float s1 = sinf(2.0f * M_PI * (float)i / (float)DAC_LEN);
-      float s2 = sinf(2.0f * M_PI * (float)i / (float)DAC_LEN + 2.0f * M_PI / 3.0f);
-      float s3 = sinf(2.0f * M_PI * (float)i / (float)DAC_LEN - 2.0f * M_PI / 3.0f);
+      float s1 = sinf(2.0f * M_PI * nth * (float)i / (float)DAC_LEN);
+      float s2 = sinf(2.0f * M_PI * nth * (float)i / (float)DAC_LEN + 2.0f * M_PI / 3.0f);
+      float s3 = sinf(2.0f * M_PI * nth * (float)i / (float)DAC_LEN - 2.0f * M_PI / 3.0f);
       uint16_t v1 = (uint16_t)(1300.0f * s1 + 2048.0f);
       uint16_t v2 = (uint16_t)(1300.0f * s2 + 2048.0f);
       uint16_t v3 = (uint16_t)(1300.0f * s3 + 2048.0f);
