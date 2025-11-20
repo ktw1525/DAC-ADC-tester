@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ktw/Documents/GitHub/DAC-ADC-tester/plotter/_deps/implot-subbuild/CMakeFiles/implot-populate"
+		},
+		{
+			"file" : "/home/ktw/Documents/GitHub/DAC-ADC-tester/plotter/_deps/implot-subbuild/CMakeFiles/implot-populate.rule"
+		},
+		{
+			"file" : "/home/ktw/Documents/GitHub/DAC-ADC-tester/plotter/_deps/implot-subbuild/CMakeFiles/implot-populate-complete.rule"
+		},
+		{
+			"file" : "/home/ktw/Documents/GitHub/DAC-ADC-tester/plotter/_deps/implot-subbuild/implot-populate-prefix/src/implot-populate-stamp/implot-populate-install.rule"
+		},
+		{
+			"file" : "/home/ktw/Documents/GitHub/DAC-ADC-tester/plotter/_deps/implot-subbuild/implot-populate-prefix/src/implot-populate-stamp/implot-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/ktw/Documents/GitHub/DAC-ADC-tester/plotter/_deps/implot-subbuild/implot-populate-prefix/src/implot-populate-stamp/implot-populate-download.rule"
+		},
+		{
+			"file" : "/home/ktw/Documents/GitHub/DAC-ADC-tester/plotter/_deps/implot-subbuild/implot-populate-prefix/src/implot-populate-stamp/implot-populate-update.rule"
+		},
+		{
+			"file" : "/home/ktw/Documents/GitHub/DAC-ADC-tester/plotter/_deps/implot-subbuild/implot-populate-prefix/src/implot-populate-stamp/implot-populate-patch.rule"
+		},
+		{
+			"file" : "/home/ktw/Documents/GitHub/DAC-ADC-tester/plotter/_deps/implot-subbuild/implot-populate-prefix/src/implot-populate-stamp/implot-populate-configure.rule"
+		},
+		{
+			"file" : "/home/ktw/Documents/GitHub/DAC-ADC-tester/plotter/_deps/implot-subbuild/implot-populate-prefix/src/implot-populate-stamp/implot-populate-build.rule"
+		},
+		{
+			"file" : "/home/ktw/Documents/GitHub/DAC-ADC-tester/plotter/_deps/implot-subbuild/implot-populate-prefix/src/implot-populate-stamp/implot-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"implot-populate"
+		],
+		"name" : "implot-populate"
+	}
+}

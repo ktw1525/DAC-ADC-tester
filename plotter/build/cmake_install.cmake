@@ -1,4 +1,4 @@
-# Install script for directory: /home/ktw/Documents/nodes/plotter
+# Install script for directory: /home/ktw/Documents/GitHub/DAC-ADC-tester/plotter
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -37,14 +37,9 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-# Set default install directory permissions.
-if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
-endif()
-
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/ktw/Documents/nodes/plotter/build/_deps/glfw-build/cmake_install.cmake")
+  include("/home/ktw/Documents/GitHub/DAC-ADC-tester/plotter/build/_deps/glfw-build/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -55,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ktw/Documents/nodes/plotter/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ktw/Documents/GitHub/DAC-ADC-tester/plotter/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

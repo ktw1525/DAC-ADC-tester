@@ -1,15 +1,18 @@
-
-# Consider dependencies only in project.
-set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
-
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
   )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/ktw/Documents/GitHub/DAC-ADC-tester/plotter/build/_deps/implot-src/implot.cpp" "/home/ktw/Documents/GitHub/DAC-ADC-tester/plotter/build/CMakeFiles/implot_obj.dir/_deps/implot-src/implot.cpp.o"
+  "/home/ktw/Documents/GitHub/DAC-ADC-tester/plotter/build/_deps/implot-src/implot_items.cpp" "/home/ktw/Documents/GitHub/DAC-ADC-tester/plotter/build/CMakeFiles/implot_obj.dir/_deps/implot-src/implot_items.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
-# The set of dependency files which are needed:
-set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ktw/Documents/nodes/plotter/build/_deps/implot-src/implot.cpp" "CMakeFiles/implot_obj.dir/_deps/implot-src/implot.cpp.o" "gcc" "CMakeFiles/implot_obj.dir/_deps/implot-src/implot.cpp.o.d"
-  "/home/ktw/Documents/nodes/plotter/build/_deps/implot-src/implot_items.cpp" "CMakeFiles/implot_obj.dir/_deps/implot-src/implot_items.cpp.o" "gcc" "CMakeFiles/implot_obj.dir/_deps/implot-src/implot_items.cpp.o.d"
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "_deps/implot-src"
+  "_deps/imgui-src"
   )
 
 # Targets to which this target links.

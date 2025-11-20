@@ -1,19 +1,28 @@
-
-# Consider dependencies only in project.
-set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
-
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/ktw/Documents/GitHub/DAC-ADC-tester/plotter/build/_deps/imgui-src/backends/imgui_impl_glfw.cpp" "/home/ktw/Documents/GitHub/DAC-ADC-tester/plotter/build/CMakeFiles/imgui_obj.dir/_deps/imgui-src/backends/imgui_impl_glfw.cpp.o"
+  "/home/ktw/Documents/GitHub/DAC-ADC-tester/plotter/build/_deps/imgui-src/backends/imgui_impl_opengl3.cpp" "/home/ktw/Documents/GitHub/DAC-ADC-tester/plotter/build/CMakeFiles/imgui_obj.dir/_deps/imgui-src/backends/imgui_impl_opengl3.cpp.o"
+  "/home/ktw/Documents/GitHub/DAC-ADC-tester/plotter/build/_deps/imgui-src/imgui.cpp" "/home/ktw/Documents/GitHub/DAC-ADC-tester/plotter/build/CMakeFiles/imgui_obj.dir/_deps/imgui-src/imgui.cpp.o"
+  "/home/ktw/Documents/GitHub/DAC-ADC-tester/plotter/build/_deps/imgui-src/imgui_draw.cpp" "/home/ktw/Documents/GitHub/DAC-ADC-tester/plotter/build/CMakeFiles/imgui_obj.dir/_deps/imgui-src/imgui_draw.cpp.o"
+  "/home/ktw/Documents/GitHub/DAC-ADC-tester/plotter/build/_deps/imgui-src/imgui_tables.cpp" "/home/ktw/Documents/GitHub/DAC-ADC-tester/plotter/build/CMakeFiles/imgui_obj.dir/_deps/imgui-src/imgui_tables.cpp.o"
+  "/home/ktw/Documents/GitHub/DAC-ADC-tester/plotter/build/_deps/imgui-src/imgui_widgets.cpp" "/home/ktw/Documents/GitHub/DAC-ADC-tester/plotter/build/CMakeFiles/imgui_obj.dir/_deps/imgui-src/imgui_widgets.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "IMGUI_IMPL_OPENGL_LOADER_GLEW"
   )
 
-# The set of dependency files which are needed:
-set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ktw/Documents/nodes/plotter/build/_deps/imgui-src/backends/imgui_impl_glfw.cpp" "CMakeFiles/imgui_obj.dir/_deps/imgui-src/backends/imgui_impl_glfw.cpp.o" "gcc" "CMakeFiles/imgui_obj.dir/_deps/imgui-src/backends/imgui_impl_glfw.cpp.o.d"
-  "/home/ktw/Documents/nodes/plotter/build/_deps/imgui-src/backends/imgui_impl_opengl3.cpp" "CMakeFiles/imgui_obj.dir/_deps/imgui-src/backends/imgui_impl_opengl3.cpp.o" "gcc" "CMakeFiles/imgui_obj.dir/_deps/imgui-src/backends/imgui_impl_opengl3.cpp.o.d"
-  "/home/ktw/Documents/nodes/plotter/build/_deps/imgui-src/imgui.cpp" "CMakeFiles/imgui_obj.dir/_deps/imgui-src/imgui.cpp.o" "gcc" "CMakeFiles/imgui_obj.dir/_deps/imgui-src/imgui.cpp.o.d"
-  "/home/ktw/Documents/nodes/plotter/build/_deps/imgui-src/imgui_draw.cpp" "CMakeFiles/imgui_obj.dir/_deps/imgui-src/imgui_draw.cpp.o" "gcc" "CMakeFiles/imgui_obj.dir/_deps/imgui-src/imgui_draw.cpp.o.d"
-  "/home/ktw/Documents/nodes/plotter/build/_deps/imgui-src/imgui_tables.cpp" "CMakeFiles/imgui_obj.dir/_deps/imgui-src/imgui_tables.cpp.o" "gcc" "CMakeFiles/imgui_obj.dir/_deps/imgui-src/imgui_tables.cpp.o.d"
-  "/home/ktw/Documents/nodes/plotter/build/_deps/imgui-src/imgui_widgets.cpp" "CMakeFiles/imgui_obj.dir/_deps/imgui-src/imgui_widgets.cpp.o" "gcc" "CMakeFiles/imgui_obj.dir/_deps/imgui-src/imgui_widgets.cpp.o.d"
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "_deps/imgui-src"
+  "_deps/imgui-src/backends"
+  "_deps/glfw-src/include"
   )
 
 # Targets to which this target links.

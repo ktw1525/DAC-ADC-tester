@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ultra_plot.dir/main.cpp.o"
-  "CMakeFiles/ultra_plot.dir/main.cpp.o.d"
   "ultra_plot"
   "ultra_plot.pdb"
 )

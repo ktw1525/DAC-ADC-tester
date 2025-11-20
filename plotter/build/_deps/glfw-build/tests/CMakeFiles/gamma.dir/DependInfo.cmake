@@ -1,20 +1,23 @@
-
-# Consider dependencies only in project.
-set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
-
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "C"
   )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_C
+  "/home/ktw/Documents/GitHub/DAC-ADC-tester/plotter/build/_deps/glfw-src/deps/glad_gl.c" "/home/ktw/Documents/GitHub/DAC-ADC-tester/plotter/build/_deps/glfw-build/tests/CMakeFiles/gamma.dir/__/deps/glad_gl.c.o"
+  "/home/ktw/Documents/GitHub/DAC-ADC-tester/plotter/build/_deps/glfw-src/tests/gamma.c" "/home/ktw/Documents/GitHub/DAC-ADC-tester/plotter/build/_deps/glfw-build/tests/CMakeFiles/gamma.dir/gamma.c.o"
+  )
+set(CMAKE_C_COMPILER_ID "GNU")
 
-# The set of dependency files which are needed:
-set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ktw/Documents/nodes/plotter/build/_deps/glfw-src/deps/glad_gl.c" "_deps/glfw-build/tests/CMakeFiles/gamma.dir/__/deps/glad_gl.c.o" "gcc" "_deps/glfw-build/tests/CMakeFiles/gamma.dir/__/deps/glad_gl.c.o.d"
-  "/home/ktw/Documents/nodes/plotter/build/_deps/glfw-src/tests/gamma.c" "_deps/glfw-build/tests/CMakeFiles/gamma.dir/gamma.c.o" "gcc" "_deps/glfw-build/tests/CMakeFiles/gamma.dir/gamma.c.o.d"
+# The include file search paths:
+set(CMAKE_C_TARGET_INCLUDE_PATH
+  "_deps/glfw-src/deps"
+  "_deps/glfw-src/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/ktw/Documents/nodes/plotter/build/_deps/glfw-build/src/CMakeFiles/glfw.dir/DependInfo.cmake"
+  "/home/ktw/Documents/GitHub/DAC-ADC-tester/plotter/build/_deps/glfw-build/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

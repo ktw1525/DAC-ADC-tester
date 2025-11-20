@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.20)
+cmake_minimum_required(VERSION 3.16)
 project(ultra_plot LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
@@ -49,6 +49,7 @@ target_include_directories(imgui_obj PUBLIC
   ${imgui_SOURCE_DIR}/backends
 )
 # GLEW 사용을 백엔드에 알려줌
+target_link_libraries(imgui_obj PUBLIC glfw)
 target_compile_definitions(imgui_obj PUBLIC IMGUI_IMPL_OPENGL_LOADER_GLEW)
 
 # ImPlot
